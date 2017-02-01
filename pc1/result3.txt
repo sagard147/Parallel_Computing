@@ -1,0 +1,21 @@
+
+
+------------Parallal verion Programm-------
+sagar@sagard:~/pc$ g++  -fopenmp Parallal_code.cpp
+sagar@sagard:~/pc$ time ./a.out `cat in.txt`
+32896605
+
+real	0m1.449s
+user	0m3.268s
+sys 	0m0.008s
+
+
+
+------------Parallal verion Programm with compiler optimization-------
+sagar@sagard:~/pc$ g++  -O3 -fopenmp Parallal_code.cpp
+sagar@sagard:~/pc$ time ./a.out `cat in.txt`
+32896605
+
+real	0m0.338s
+user	0m0.752s
+sys 	0m0.012s

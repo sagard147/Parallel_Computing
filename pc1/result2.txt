@@ -1,0 +1,10 @@
+
+
+------------Itarative Version Programm------------
+sagar@sagard:~/pc$ g++ Itarative_code.cpp
+sagar@sagard:~/pc$ time ./a.out `cat in.txt`
+32896605
+
+real	0m2.268s
+user	0m2.264s
+sys	    0m0.000s
