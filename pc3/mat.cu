@@ -1,4 +1,4 @@
- //Matrix multiplication using shared and non shared kernal
+ //Matrix multiplication using shared kernal
 
 
 
