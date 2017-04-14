@@ -1,0 +1,20 @@
+//input 
+A is a 100*100 matrix.
+B is a 100*100 matrix.
+//Then M(A*B) is  is also a 100*100 matrix.
+
+
+
+// Cuda C Program
+sagar@Sagar:~/Downloads$nvcc mat.c
+sagar@Sagar:~/Downloads$ time ./a.out 
+real  0m0.003s
+user  0m0.000s
+sys   0m0.000s
+
+//  Normal C program
+sagar@Sagar:~/Downloads$gcc Normal_mat.c
+sagar@Sagar:~/Downloads$ time ./a.out 
+real  0m0.012s
+user  0m0.008s
+sys   0m0.000s
