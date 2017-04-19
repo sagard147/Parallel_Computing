@@ -64,17 +64,17 @@ int Y=strlen(y);
  	
  	for(i = 0; i <= Y-1; i++) 
 	{	
-		// First string is empty
+	// First string is empty
         // where we should isnert all characters of second string
-		// so Min. operations = Y-1
+	// so Min. operations = Y-1
 	   M[X][i]=(Y)-(i); 
 	}
        
 	for(i = 0; i <= X; i++) 
 	{
-		// Second string is empty
+	// Second string is empty
         // where we should add all characters of first
-		// Min. operations = X-i
+	// Min. operations = X-i
 	    M[i][Y]=(X)-(i); 
 	}
         
