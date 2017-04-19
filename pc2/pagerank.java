@@ -1,14 +1,14 @@
 /*
     To calculate page rank using MapReduce.
-    Input : Two matrices stored in two separate csv files.
+    Input : Two matrices stored in two separate csv files taken from Hadoop system.
             First matrix is the graph representing the links between the graph.
             Second matrix is the vector.
     
     Implementation: Two mappers class and one reducer class
-                Two mappers is to parallelize the process as much as possible.
+                 Two mappers is to parallelize the process as much as possible.
                  
          
-    Output :  Vector containing the page rank.
+    Output :  Vector containing the page rank,which is strored on Hadoop system.
 */
 
 
